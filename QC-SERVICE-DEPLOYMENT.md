@@ -356,7 +356,7 @@ These already exist for other services. Confirm they are set before pushing:
 | Secret | `AWS_ACCOUNT_ID` | `873135413040` |
 | Secret | `AWS_ROLE_ARN` | IAM role for GitHub OIDC |
 | Secret | `GITOPS_TOKEN` | GitHub PAT with `repo` scope on zen-gitops |
-| Variable | `GITOPS_REPO` | `ravdy/zen-gitops` |
+| Variable | `GITOPS_REPO` | `rkoneru-hub/zen-gitops` |
 
 ### 3.4 Commit and push the backend changes
 
@@ -564,7 +564,7 @@ metadata:
 spec:
   project: pharma
   source:
-    repoURL: https://github.com/ravdy/zen-gitops.git
+    repoURL: https://github.com/rkoneru-hub/zen-gitops.git
     targetRevision: HEAD
     path: helm-charts
     helm:
