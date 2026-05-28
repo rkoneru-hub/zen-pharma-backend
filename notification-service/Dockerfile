@@ -14,4 +14,3 @@ CMD ["node", "src/index.js"]
 # Test the application
 
 
-
